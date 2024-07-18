@@ -762,38 +762,52 @@ img {
         column-gap: 4rem;
     }
 
-     .hero-container{
-        grid-template-columns: 430px 605px;
+    .hero-container{
+        display: grid;
+        grid-template-columns: 430px auto; /* Use 'auto' to let the image container adjust its width */
         align-items: center;
         column-gap: 4rem;
         padding-block: 7rem 4rem;
-     }
+    }
 
-     .hero-data{
+    .hero-data{
         text-align: initial;
-     }
+    }
 
-     .hero-description{
+    .hero-description{
         margin-bottom: 3.5rem;
         padding-right: 3rem;
-     }
+    }
 
-     .hero-sticker{
+    .hero-sticker{
         width: 60px;
         right: 10rem;
         bottom: 1rem;
-     }
+    }
 
-     .hero-burger{
+    .hero-images {
+        position: relative; /* Ensure the images are positioned relative to their container */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; /* Align images to the right */
+    }
+
+    .hero-burger{
         width: 490px;
-     }
-     .hero-dish{
+        position: relative; /* Ensure the main burger image is positioned relative to its container */
+    }
+
+    .hero-dish{
         width: 560px;
         bottom: -4rem;
-     }
-     .hero-ingredient{
+        position: absolute; /* Position additional images absolutely within the relative container */
+    }
+
+    .hero-ingredient{
         width: 100px;
-     }
+        position: absolute; /* Position ingredients absolutely within the relative container */
+    }
+
      .bio-container{
         grid-template-columns: 350px 300px;
         column-gap: 8rem;
