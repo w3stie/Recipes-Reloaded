@@ -3,6 +3,8 @@ An update to the odin-recipes Page i did a while back
 
 A responsive website dedicated to showcasing the best recipes, with a visually appealing design and a user-friendly interface. This project aims to provide users with an engaging experience while browsing through a variety of recipes.
 
+![RR](https://github.com/user-attachments/assets/af575608-a401-4602-aaa2-ca74db1ccd1b)
+
 ## Table of Contents
 
 - [Demo](#demo)
@@ -16,7 +18,7 @@ A responsive website dedicated to showcasing the best recipes, with a visually a
 
 ## Demo
 
-Check out the live demo of the website [here](#).
+Check out the live demo of the website [here](#https://w3stie.github.io/Recipes-Reloaded/).
 
 ## Features
 
